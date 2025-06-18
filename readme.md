@@ -12,15 +12,15 @@ The scheme used here uses a loop in .zshrc to iterate through a subfolder in you
 
 make the script setup_zsh_aliases.sh executable via the command: 
 
-'''sudo chmod +x setup_zsh_aliases.sh'''
+('''sudo chmod +x setup_zsh_aliases.sh''')
 
 run the script -if you accept the prompts, it will place a loop in your .zshrc file to find and load the aliases and functions. To use the aliases and functions in this repository, add them to the subfolder as shown below.
 
-'''
+('''
 /home/myuser/.zsh_aliases/
     ├── public_aliases.zsh
     └── public_functions.zsh
-'''
+''')
 
 After placing the files, run '''source ~/.zshrc''' to refresh your zsh shell without rebooting - the aliases in the specified files should now be available to you.
 
