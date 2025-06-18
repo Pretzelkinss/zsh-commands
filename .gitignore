@@ -1,0 +1,6 @@
+# Ignore private aliases and private functions -- 
+# You may benefit from creating private aliases or functions, but not want to share that information. Give private aliases and functions a filename with private to prevent this;
+# example: my-private-functions.zsh
+
+*private*
+*commands_index.zsh
